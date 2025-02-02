@@ -48,8 +48,8 @@ In this project, I:
 **Goal**: Model non-stationary financial data with fat-tailed distributions.  
 **Implementation**:  
 - Built a high-capacity feedforward neural network (TensorFlow/Keras) to capture complex market patterns.  
-- Integrated **weighted Huber loss** to reduce sensitivity to outliers and sudden market shifts.  
-- Engineered features: **sin/cos transforms of `time_id`** to encode cyclical time patterns.  
+- Integrated weighted Huber loss to reduce sensitivity to outliers and sudden market shifts.  
+- Engineered features: sin/cos transforms of time features to encode cyclical time patterns.  
 
 **Key Challenges**:  
 - Training exceeded 20+ hours on local hardware, forcing early termination and reevaluation of scalability.  
